@@ -200,7 +200,7 @@ ipcMain.on('openGame', () => {
 		try {
 			const process = spawn(path.join(steamPath.data as string, 'steam.exe'), [
 				'-applaunch',
-				'945360'
+				'15446234961039851520'
 			]);
 			process.on('error', () => {
 				dialog.showErrorBox('Error', 'Please launch the game through Steam.');
